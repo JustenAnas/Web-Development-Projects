@@ -1,0 +1,29 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+} 
+.rounded{
+    border-radius: 7px  ;
+}
+.m-1{
+    margin: 10px;
+}
+.p-1{
+padding: 10px;
+padding-left: 18px;
+}
+.circle-img{
+    height: 194px;
+    width: 168px;
+     border-radius: 50%;
+     padding: 15px 0px 4px 0px;
+}

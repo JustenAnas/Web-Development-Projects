@@ -1,0 +1,239 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+  --navbar-height: 59px;
+}
+
+/* Navigation Bar  */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+/*  Navigation Bar: Logo And image  */
+#logo {
+  margin: 45px 50px;
+}
+
+#logo img {
+  height: 186px;
+  margin: -41px -49px;
+}
+
+/*  Navigation Bar: List Styling  */
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+#navbar ul {
+  display: flex;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.7rem;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 3px 23px;
+  border-radius: 20px;
+  /* color: black; */
+  color: rgb(164, 157, 157);
+  /* color: white; */
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Home Section  */
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 213px;
+  height: 510px;
+  justify-content: center;
+  align-items: center;
+}
+
+#home::before {
+  content: "";
+  background: url("../bg1.jpg") no-repeat center center/cover;
+  /* background:url('../spaghetti-1932466.jpg') no-repeat center center/cover;  */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+#home h1 {
+  color: black;
+  /* color: white; */
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+#home p {
+  color: black;
+  /* color: white; */
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu SA Beginner", cursive;
+}
+/* Sevices Section  */
+#services {
+  margin: 34px;
+  display: flex;
+}
+
+.service-container {
+  background-color: #e2cece;
+}
+#services .box {
+  border: 2px solid brown;
+  padding: 34px;
+  margin: 3px 6px;
+  border-radius: 23px;
+  background-color: rgb(237, 153, 50);
+}
+#services .box img {
+  width: 149px;
+  height: 118px;
+  margin: auto;
+  display: block;
+}
+#services .box p {
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+/* Client Section  */
+#client-section {
+  position: relative;
+}
+/*"@@@@@@@@@@$#%&&& isme kuch galat kiya h ye le nhi raha" */
+#client-section::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url("../bg2.jpg") no-repeat center center/cover;
+  z-index: -7;
+  opacity: 0.5;
+}
+
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-item {
+  padding: 14px;
+}
+
+#clients img {
+  height: 110px;
+}
+
+/* Contact Section */
+#contact {
+  position: relative;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  background: url("../contact-us.jpg") no-repeat center center/cover;
+}
+ 
+.contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+}
+
+.contact-box form {
+  width: 40%;
+}
+
+.contact-box label {
+  font-size: 1.3rem;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 2px 20px;
+}
+
+/* Utility Class */
+.h-primary {
+  font-size: 3.8rem;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu SA Beginner", cursive;
+  padding: 20px;
+}
+.h-secondary {
+  font-size: 2.4rem;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu SA Beginner", cursive;
+  padding: 12px;
+}
+.btn {
+  padding: 5px 9px;
+  border: 2px solid black;
+  background-color: rgb(82, 43, 43);
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}

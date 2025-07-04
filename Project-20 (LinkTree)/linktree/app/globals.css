@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li:hover {
+  background-color: rgb(239, 240, 236);
+  padding: 7px 14px;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.btn-login:hover {
+  background-color: rgb(230, 231, 221) !important;
+}
+.btn-signup:hover {
+  background-color: black;
+  opacity: 0.9;
+}
+/* .menu {
+    list-style: none;
+    padding: 0;
+}
+.main-item {
+    position: relative;
+    background: #f0f0f0;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hidden-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    /* Makes it appear below the main item */
+/* background: white;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+.main-item:hover .hidden-menu {
+    display: block; */
+/* Show submenu when hovering */
+/* } */
