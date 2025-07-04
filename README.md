@@ -55,7 +55,8 @@ This repository includes 20+ frontend and full-stack web development projects ma
 ## 📫 Contact Me
 
 - GitHub: [JustenAnas](https://github.com/JustenAnas)
-- Email: [justenanas@gmail.com](mailto:justenanas@gmail.com)
+- Email:  [khananas49340@gmail.com](mailto:khananas49340@gmail.com)
+
 
 ---
 
