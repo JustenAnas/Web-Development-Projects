@@ -6,8 +6,7 @@
   "test": "echo \"Error: no test specified\" && exit 1",
   "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --minify",
   "dev": "vite"
-}
-
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
